@@ -1,0 +1,84 @@
+/*----------------------- General Styles --------------------------*/
+html {
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    margin: 0 auto;
+}
+.container {
+    background-image: linear-gradient(135deg,  hsl(0, 0%, 100%),  hsl(0, 100%, 98%));
+    padding-bottom: 30px;
+}
+.logo{
+    padding: 30px;
+    width: 30%;
+    height: auto;
+    text-align: start;
+}
+
+.mobile-hero {
+    background-image: url(../images/hero-mobile.jpg);
+    width: 375px;
+    height: 250px;
+
+}
+h1 {
+    color: hsl(0, 6%, 24%);
+    text-transform: uppercase;
+    font-size: 2.75rem;
+    letter-spacing: 10px;
+    padding-bottom: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 50px;
+}
+span {
+    color: hsl(0, 36%, 70%);
+    font-weight: 300;
+}
+p {
+    color: hsl(0, 36%, 70%);
+    text-align: center;
+    line-height: 25px;
+    padding: 0 35px;
+    font-size: .85rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+form {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.email {
+    padding: 15px 90px 15px 20px;
+    border-radius: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    border: 1px solid hsl(0, 36%, 70%);
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+input[type=email] {
+    color: hsl(0, 36%, 70%);
+}
+
+
+.submit {
+    padding: 14px 25px;
+    border-radius: 50px;
+    margin: 0;
+    position: absolute;
+    left: 265px;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+input[type=img]:hover {
+    background-image: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+    cursor: pointer;
+}
